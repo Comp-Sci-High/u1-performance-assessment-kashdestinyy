@@ -80,8 +80,14 @@ takeCareOfPet("hotdogs,10")
 // ----------------------------
 // 5th Floor
 
-
-
+function messageAdder(message){
+    let array=[]
+    for(i=0;i>5;i++){
+        array.push(message)
+    }
+    console.log("Open sesame")
+}
+messageAdder("run")
 
 
 // Commit and show us to unlock the next floor's instructions
